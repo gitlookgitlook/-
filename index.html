@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>첫번째 프로젝트</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>도메인 만들기</h1>
+    <div class="container">
+      <h2>코알누</h2>
+      <h3>숫자 맞추기 게임</h3>
+
+      <div id="result-area">결과가 나온다!</div>
+      <div id="chance-area">남은 기회: 3번</div>
+      <div id="random-number-area" style="color: blue">
+        <h3>정답:</h3>
+      </div>
+      <input id="user-input" style="margin-top: 10px" />
+      <button id="play-button">Go!</button>
+      <button id="reset-button">Reset!</button>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
