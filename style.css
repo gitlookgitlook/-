@@ -1,6 +1,48 @@
+body {
+  margin: unset;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
 .container {
-  background-color: antiquewhite;
-  text-align: center;
-  padding: 50px;
-  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  width: 70vw;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.task-area {
+  margin-top: 1rem;
+  border: 1px solid lightblue;
+}
+
+.task-tabs {
+  display: flex;
+  border-bottom: 1px solid lightblue;
+  position: relative;
+}
+
+.task-tabs div {
+  padding: 0.25rem;
+}
+
+#under-line {
+  height: 4px;
+  background-color: rgb(152, 232, 254);
+  position: absolute;
+  width: 40px;
+  left: 0px;
+  top: 30px;
+  padding: 0px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem;
 }
